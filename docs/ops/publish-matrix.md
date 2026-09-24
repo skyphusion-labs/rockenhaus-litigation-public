@@ -61,7 +61,11 @@ case tree).
 
 VA EMMS best copies of false death-hoax notices. **PII review (Conrad 2026-08-04):**
 cleared for public hosting; third-party names also appear on the .cc site and in
-filed pleadings.
+filed pleadings. The 27 July 2026 letter's Social Security number field was
+redacted on 2026-09-23 (image and text layer). The other four letters in this
+directory were checked the same day and do not contain that number. The private
+repo still holds the unredacted custody copy; do not overwrite this public PDF
+from that original without repeating the redaction.
 
 | Artifact | Public path | Status |
 | --- | --- | --- |
@@ -69,7 +73,7 @@ filed pleadings.
 | ClaimLetter-2026-06-29.pdf | `/assets/evidence/death_hoax_claim_letters/ClaimLetter-2026-06-29.pdf` | published (P2) |
 | ClaimLetter-2026-06-29-2.pdf | `/assets/evidence/death_hoax_claim_letters/ClaimLetter-2026-06-29-2.pdf` | published (P2) |
 | ClaimLetter-2026-07-16.pdf | `/assets/evidence/death_hoax_claim_letters/ClaimLetter-2026-07-16.pdf` | published (P2) |
-| ClaimLetter-2026-07-27.pdf | `/assets/evidence/death_hoax_claim_letters/ClaimLetter-2026-07-27.pdf` | published (P2) |
+| ClaimLetter-2026-07-27.pdf | `/assets/evidence/death_hoax_claim_letters/ClaimLetter-2026-07-27.pdf` | published (P2), SSN field redacted 2026-09-23 |
 | Index page | `/is-conrad-rockenhaus-dead/claim-letters/` | published (P2) |
 
 Private source (still canonical for chain of custody notes):  
