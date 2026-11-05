@@ -102,8 +102,9 @@
       },
       {
         "label": "X",
-        "url": "https://x.com/skyphusion",
-        "handle": "@skyphusion",
+        "url": "https://x.com/rockrockenhaus",
+        "handle": "@rockrockenhaus",
+        "note": "Previously operated by Adrienne Rockenhaus; returned to Conrad's control 2026-11-05. Posts made under it before that date were not his.",
         "verified": true,
         "category": "social"
       },
@@ -156,7 +157,7 @@
       "https://skyphusion.net/",
       "https://github.com/skyphusion",
       "https://github.com/skyphusion-labs",
-      "https://x.com/skyphusion",
+      "https://x.com/rockrockenhaus",
       "https://www.linkedin.com/in/skyphusion/",
       "https://facebook.com/skyphusion",
       "https://instagram.com/skyphusion",
@@ -166,7 +167,7 @@
     ],
     "seo_sites": "rockenhaus.net, litigation.rockenhaus.net",
     "seo_sites_long": "rockenhaus.net (also litigation.rockenhaus.net; this public court record)",
-    "seo_profiles_summary": "Conrad Alan Rockenhaus maintains skyphusion.net, github.com/skyphusion, github.com/skyphusion-labs, linkedin.com/in/skyphusion, and verified @skyphusion profiles on X, Facebook, and Instagram. Disputed profiles operated or hijacked by Adrienne Rockenhaus (not authoritative): linkedin.com/in/conrad-rockenhaus, instagram.com/conrad.rockenhaus, and @rockrockenhaus on X -- indexed at /disputed-domains/."
+    "seo_profiles_summary": "Conrad Alan Rockenhaus maintains skyphusion.net, github.com/skyphusion, github.com/skyphusion-labs, linkedin.com/in/skyphusion, verified @rockrockenhaus on X, and verified @skyphusion profiles on Facebook and Instagram. @rockrockenhaus on X: Previously operated by Adrienne Rockenhaus; returned to Conrad's control 2026-11-05. Posts made under it before that date were not his. Disputed profiles operated or hijacked by Adrienne Rockenhaus (not authoritative): linkedin.com/in/conrad-rockenhaus and instagram.com/conrad.rockenhaus -- indexed at /disputed-domains/."
   },
   "third_parties": [
     {
@@ -263,17 +264,9 @@
       "canonical_handle": "instagram.com/skyphusion",
       "canonical_url": "https://instagram.com/skyphusion",
       "assertion": "Conrad states this Instagram URL is not under his control. Authoritative profile: instagram.com/skyphusion."
-    },
-    {
-      "handle": "@rockrockenhaus",
-      "url": "https://x.com/rockrockenhaus",
-      "platform": "X",
-      "canonical_handle": "@skyphusion",
-      "canonical_url": "https://x.com/skyphusion",
-      "assertion": "Conrad states @rockrockenhaus is not under his control. Authoritative X account: @skyphusion."
     }
   ],
-  "seo_disputed_summary": "Some public domains and social URLs use the Rockenhaus name or discuss these cases. Conrad states they are not the official Michigan court record and that several profiles using his name are not under his control. Authoritative profiles: linkedin.com/in/skyphusion, instagram.com/skyphusion, @skyphusion. Filed documents: rockenhaus.net. Domain-related motion relief is quoted under /answers/.",
-  "seo_disputed_profiles_summary": "Conrad states linkedin.com/in/conrad-rockenhaus, instagram.com/conrad.rockenhaus, and @rockrockenhaus are not under his control. Use linkedin.com/in/skyphusion, instagram.com/skyphusion, and @skyphusion instead.",
+  "seo_disputed_summary": "Some public domains and social URLs use the Rockenhaus name or discuss these cases. Conrad states they are not the official Michigan court record and that several profiles using his name are not under his control. Authoritative profiles: linkedin.com/in/skyphusion, instagram.com/skyphusion, @rockrockenhaus on X. Filed documents: rockenhaus.net. Domain-related motion relief is quoted under /answers/.",
+  "seo_disputed_profiles_summary": "Conrad states linkedin.com/in/conrad-rockenhaus and instagram.com/conrad.rockenhaus are not under his control. Use linkedin.com/in/skyphusion and instagram.com/skyphusion instead. @rockrockenhaus on X is now his authoritative X account: Previously operated by Adrienne Rockenhaus; returned to Conrad's control 2026-11-05. Posts made under it before that date were not his.",
   "seo_third_parties_summary": "Related-party public X posts are listed at /joe-prich/ (noindex exhibit index into /evidence/). June 30, 2026 retraction demands to Adrienne Rockenhaus and Rob Hein are at /retractions/. This site does not publish third-party consumer \"do not hire\" pages."
 }

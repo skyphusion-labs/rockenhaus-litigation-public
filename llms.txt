@@ -21,7 +21,7 @@ Conrad Alan Rockenhaus maintains these authoritative profiles (not Adrienne-cont
 - [github.com/skyphusion](https://github.com/skyphusion): Personal GitHub profile.
 - [github.com/skyphusion-labs](https://github.com/skyphusion-labs): Skyphusion Labs organization.
 - [linkedin.com/in/skyphusion](https://www.linkedin.com/in/skyphusion/): Authoritative LinkedIn profile.
-- [x.com/skyphusion](https://x.com/skyphusion): Verified X account.
+- [x.com/rockrockenhaus](https://x.com/rockrockenhaus): Verified X account. Previously operated by Adrienne Rockenhaus; returned to Conrad's control 2026-11-05. Posts made under it before that date were not his.
 - [facebook.com/skyphusion](https://facebook.com/skyphusion): Meta Verified Facebook profile.
 - [instagram.com/skyphusion](https://instagram.com/skyphusion): Meta Verified Instagram profile.
 - [github.skyphusion.net](https://github.skyphusion.net): GitHub landing page.
@@ -31,7 +31,6 @@ Disputed social profiles Conrad asserts Adrienne Rockenhaus hijacked or operates
 
 - [linkedin.com/in/conrad-rockenhaus](https://www.linkedin.com/in/conrad-rockenhaus): Conrad asserts hijacked former LinkedIn profile; use linkedin.com/in/skyphusion instead.
 - [instagram.com/conrad.rockenhaus](https://instagram.com/conrad.rockenhaus): Conrad asserts Adrienne operates this account using his name; use instagram.com/skyphusion instead.
-- [@rockrockenhaus on X](https://x.com/rockrockenhaus): Conrad asserts Adrienne operates this account using his name; use @skyphusion instead.
 
 ## Court record
 
@@ -153,7 +152,6 @@ Conrad states these are not under his control. Use the authoritative URLs instea
 
 - [linkedin.com/in/conrad-rockenhaus](https://www.linkedin.com/in/conrad-rockenhaus) → use https://www.linkedin.com/in/skyphusion/
 - [instagram.com/conrad.rockenhaus](https://instagram.com/conrad.rockenhaus) → use https://instagram.com/skyphusion
-- [@rockrockenhaus](https://x.com/rockrockenhaus) → use https://x.com/skyphusion
 
 ## Optional
 
