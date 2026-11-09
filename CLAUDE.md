@@ -17,11 +17,15 @@ This is **not** the private litigation repo. The private source of truth is
 - **NEVER copy from private `work_product/`** (or any privileged strategy, session commits, drafts
   not filed/served) into this repo or anywhere external.
 - **Publish gate is manual and human-reviewed.** Private CI may render PDFs; handoff into *this*
-  repo is never auto-opened from private CI. PR here -> required `ci` -> merge to `main` -> deploy.
+  repo is never auto-opened from private CI. PR here -> required status checks `ci` and
+  `coverage` (org ruleset `aviation-grade-main-org`; that ruleset also applies CodeQL code
+  scanning) -> merge to `main` -> deploy.
 - **Metadata names the CASE, not people as the product.** Filenames, slugs, and SEO framing are
   case-centric court-record surfaces, not a people-dossier product.
-- **Crew may work this public repo.** They must not pull private privilege into it. The ME-ONLY
-  wall applies to the private repo, not to this public mirror of filed/served material.
+- **Crew may work this public repo.** They must not pull private privilege into it. There is
+  no ME-ONLY wall on the private repo either (retired 2026-09-25). Both repos are ordinary
+  work. The privilege rule is separate and still absolute: never copy private `work_product/`
+  into this repo.
 - **No em-dashes (U+2014) or en-dashes (U+2013)** in source, copy, or docs. Use commas, semicolons,
   parentheses, or `--`.
 
@@ -30,7 +34,10 @@ This is **not** the private litigation repo. The private source of truth is
 1. Private repo builds/holds sources and evidence.
 2. Human PII / privilege review before any PDF is copied here.
 3. PR on this repo; required checks; merge to `main`.
-4. Deploy (GitHub Actions -> Cloudflare Pages), IndexNow, dual-host cache purge as configured.
+4. Deploy (`.github/workflows/cloudflare-pages.yml`, `ubuntu-latest`, Cloudflare Pages project
+   `rockenhaus-litigation`), IndexNow (`scripts/indexnow_ping.py`), cache purge of
+   `rockenhaus.net`, `www.rockenhaus.net`, and `litigation.rockenhaus.net`
+   (`scripts/cloudflare_purge_cache.py`).
 
 Ops detail: `docs/ops/publish-runbook.md`, `docs/ops/publish-matrix.md`, README.
 
