@@ -19,7 +19,7 @@ Short procedure for landing a new filed/served PDF on rockenhaus.net.
    ```bash
    python3 scripts/generate_site.py
    # if new native text should be searchable/quotable:
-   # prefer Linux pdftotext (Docker bookworm) for CI parity
+   # prefer poppler from ubuntu-24.04, the CI and Pages extractor
    node scripts/build-corpus.mjs
    node scripts/verify-citations.mjs   # if qa_questions changed
    ```

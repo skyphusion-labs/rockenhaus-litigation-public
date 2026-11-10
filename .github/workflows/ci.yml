@@ -34,7 +34,11 @@ permissions:
 
 jobs:
   ci:
-    runs-on: ubuntu-latest
+    # pdftotext -layout is the committed corpus. ubuntu-latest handed this
+    # job ubuntu-26.04 on 2026-11-10 (libpoppler 26.01.0) and
+    # build-corpus --check failed against pages extracted on 24.04.
+    # Stay on 24.04 until a reviewed corpus rebuild adopts the new poppler.
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7
 
