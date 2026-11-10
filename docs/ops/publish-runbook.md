@@ -23,7 +23,7 @@ Short procedure for landing a new filed/served PDF on rockenhaus.net.
    node scripts/build-corpus.mjs
    node scripts/verify-citations.mjs   # if qa_questions changed
    ```
-5. **Open a PR** on `rockenhaus-litigation-public`. Required check: **`ci`** only.
+5. **Open a PR** on `rockenhaus-litigation-public`. Required checks: **`ci`** and **`coverage`**.
 6. **Merge** when green. Pages deploy runs on `main`.
 7. **Spot-check** apex + alias (`rockenhaus.net` and `litigation.rockenhaus.net`);
    deploy purges both.
