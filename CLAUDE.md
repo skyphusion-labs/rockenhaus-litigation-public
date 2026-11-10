@@ -34,7 +34,7 @@ This is **not** the private litigation repo. The private source of truth is
 1. Private repo builds/holds sources and evidence.
 2. Human PII / privilege review before any PDF is copied here.
 3. PR on this repo; required checks; merge to `main`.
-4. Deploy (`.github/workflows/cloudflare-pages.yml`, `ubuntu-latest`, Cloudflare Pages project
+4. Deploy (`.github/workflows/cloudflare-pages.yml`, `ubuntu-24.04`, Cloudflare Pages project
    `rockenhaus-litigation`), IndexNow (`scripts/indexnow_ping.py`), cache purge of
    `rockenhaus.net`, `www.rockenhaus.net`, and `litigation.rockenhaus.net`
    (`scripts/cloudflare_purge_cache.py`).
