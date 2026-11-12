@@ -7,9 +7,10 @@ Every public answer page quotes filed PDFs only (`scripts/verify-citations.mjs`)
 
 | Claim / query | Filing anchor | Public URL |
 | --- | --- | --- |
-| When is the next hearing? | 45 Consolidated NOH In Person (2026-08-04) | [/answers/when-is-the-next-hearing-wayne-divorce-26-104594-do/](/answers/when-is-the-next-hearing-wayne-divorce-26-104594-do/) |
+| What happened to 26-104594-DO? | Order dated 2026-10-13 (`wayne_do_26-104594-DO/orders/`): "This case is to be dismissed for Plaintiff failed to appear. No Counter-Complaint filed by Defendant." | [/faq/#what-happened-wayne-county-divorce-26-104594-do](/faq/#what-happened-wayne-county-divorce-26-104594-do) and [the order](/documents/waynedo26-104594-do-orders-orderdismissalplaintifffailedtoappear2026-10-13/) |
+| When was the 8/26 hearing noticed for? | 45 Consolidated NOH In Person (2026-08-04) | [/answers/when-is-the-next-hearing-wayne-divorce-26-104594-do/](/answers/when-is-the-next-hearing-wayne-divorce-26-104594-do/) |
 | In person or remote? | 45 (CAYMC Rm 1501; supersedes Zoom) | [/answers/is-the-august-26-2026-hearing-in-person-or-remote/](/answers/is-the-august-26-2026-hearing-in-person-or-remote/) |
-| What motions are on for 8/26? | 45 (eleven motions, including GAL) | [/answers/what-motions-are-scheduled-for-august-26-2026/](/answers/what-motions-are-scheduled-for-august-26-2026/) |
+| What motions were noticed for 8/26? | 45 (eleven motions, including GAL) | [/answers/what-motions-are-scheduled-for-august-26-2026/](/answers/what-motions-are-scheduled-for-august-26-2026/) |
 | What does the GAL motion ask for? | 39 Motion Appoint GAL (2026-07-02) | [/answers/what-does-the-guardian-ad-litem-motion-ask-for/](/answers/what-does-the-guardian-ad-litem-motion-ask-for/) |
 | Does GAL appointment decide merits? | 39 | [/answers/does-a-guardian-ad-litem-appointment-decide-the-case/](/answers/does-a-guardian-ad-litem-appointment-decide-the-case/) |
 | What rule governs GAL? | 39 (MCR 2.201(E)) | [/answers/what-rule-governs-appointing-a-guardian-ad-litem-in-michigan/](/answers/what-rule-governs-appointing-a-guardian-ad-litem-in-michigan/) |
@@ -56,8 +57,8 @@ Hub: [/is-conrad-rockenhaus-dead/](/is-conrad-rockenhaus-dead/) links the Facebo
 | --- | --- | --- |
 | American Airlines AAdvantage "identity theft" narrative | Email-control facts from Filing 08; AA email is correspondence (not quoted as a filing) | [/answers/what-does-the-record-say-about-control-of-conrad-email-accounts/](/answers/what-does-the-record-say-about-control-of-conrad-email-accounts/) + [/is-conrad-rockenhaus-dead/aadvantage-account-update/](/is-conrad-rockenhaus-dead/aadvantage-account-update/) |
 | Puffer coat / Ann Helgren | Release-day property + clothing + Helgren refusal quotes; no native "puffer coat" string | [/answers/what-does-the-record-say-about-property-and-clothing-on-conrad-release-day/](/answers/what-does-the-record-say-about-property-and-clothing-on-conrad-release-day/) |
-| Is Conrad dead? | Counterclaim false-death post + ongoing pro se NOH | [/answers/is-conrad-rockenhaus-dead-according-to-the-court-record/](/answers/is-conrad-rockenhaus-dead-according-to-the-court-record/) |
-| VA benefits in divorce | Preemption brief + USAA TRO on calendar | [/answers/what-does-the-record-say-about-va-benefits-in-the-wayne-divorce/](/answers/what-does-the-record-say-about-va-benefits-in-the-wayne-divorce/) |
+| Is Conrad dead? | Counterclaim false-death post + pro se NOH | [/answers/is-conrad-rockenhaus-dead-according-to-the-court-record/](/answers/is-conrad-rockenhaus-dead-according-to-the-court-record/) |
+| VA benefits in divorce | Preemption brief + USAA TRO noticed for 8/26 | [/answers/what-does-the-record-say-about-va-benefits-in-the-wayne-divorce/](/answers/what-does-the-record-say-about-va-benefits-in-the-wayne-divorce/) |
 | Death-hoax claim letters (VA EMMS) | Published P2 after Conrad PII review 2026-08-04 | [/is-conrad-rockenhaus-dead/claim-letters/](/is-conrad-rockenhaus-dead/claim-letters/) |
 
 ## Live AI Search widget

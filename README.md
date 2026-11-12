@@ -4,7 +4,7 @@
 **Alias (same site, no redirect):** [https://litigation.rockenhaus.net/](https://litigation.rockenhaus.net/)
 
 Visitors, search engines, and citations should use **rockenhaus.net** as the
-canonical URL. Maintained pro se by Conrad Alan Rockenhaus for active Michigan
+canonical URL. Maintained pro se by Conrad Alan Rockenhaus for Michigan
 state-court litigation.
 
 **This repository is public** (transferred into `skyphusion-labs` on 2026-07-30).
@@ -129,7 +129,7 @@ bundle exec jekyll build --destination _site
 wrangler pages deploy _site --project-name=rockenhaus-litigation --branch=main
 ```
 
-## Active matters
+## Matters
 
 | Case | Court | Case Number | Role |
 |---|---|---|---|

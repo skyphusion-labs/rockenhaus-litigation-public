@@ -194,8 +194,9 @@ describe("the frame is looked up, never written", () => {
 
 describe("pairing an allegation with its disposition is NOT claimed", () => {
   it("says so in the artifact rather than leaving the absence to be discovered", () => {
-    // The record as published cannot support it: 2 documents in `orders`,
-    // neither dated, and 19 opposing filings with no dates either. There is no
+    // The record as published cannot support it: 3 documents in `orders`, one
+    // dated (the 2026-10-13 order, which addresses the whole case and names no
+    // motion), and 19 opposing filings with no dates. There is no
     // field linking a motion to its disposition and no date arithmetic that
     // could stand in for one. Guessing from filename order would invent a
     // relationship between court documents, which is the opposite of the point.
@@ -207,7 +208,13 @@ describe("pairing an allegation with its disposition is NOT claimed", () => {
     const orders = table.documents.filter((d) => d.category === "orders");
     const datedOrders = orders.filter((d) => d.filed_date);
     expect(orders.length).toBeLessThan(5);
-    expect(datedOrders.length, "orders now carry dates; pairing may be derivable, revisit").toBe(0);
+    // Pinned to the exact slugs, not a count ceiling: any NEW dated order still
+    // trips this, because a dated order that names a motion could make pairing
+    // derivable and the framing above would then be wrong.
+    expect(
+      datedOrders.map((d) => d.slug).sort(),
+      "a new dated order exists; pairing may be derivable, revisit",
+    ).toEqual(["waynedo26-104594-do-orders-orderdismissalplaintifffailedtoappear2026-10-13"]);
   });
 });
 
