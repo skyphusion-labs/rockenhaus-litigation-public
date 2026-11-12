@@ -27,10 +27,21 @@ import { ROOT, SITE_URL } from "./lib/site-urls.mjs";
 
 const KEY_FILE = join(ROOT, "rockenhauslitigationindexnow2026.txt");
 
+// One pass. Decoding `&amp;` in an earlier replace turns `&amp;lt;` into
+// `&lt;` and the next replace then turns that into `<`. A sitemap writes a
+// literal ampersand as `&amp;`, and that ampersand is part of the URL.
+const XML_ENTITIES = {
+  "&amp;": "&",
+  "&lt;": "<",
+  "&gt;": ">",
+  "&quot;": '"',
+  "&apos;": "'",
+};
+
 /** The <loc> values of a sitemap, in document order. */
 export function locsFrom(xml) {
   return [...xml.matchAll(/<loc>\s*([^<]+?)\s*<\/loc>/g)].map((m) =>
-    m[1].replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&apos;/g, "'"),
+    m[1].replace(/&(amp|lt|gt|quot|apos);/g, (entity) => XML_ENTITIES[entity]),
   );
 }
 

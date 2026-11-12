@@ -333,6 +333,28 @@ describe("the IndexNow submission list", () => {
     expect(locsFrom(renderSitemap(["/a&b/"]))).toEqual(["https://rockenhaus.net/a&b/"]);
   });
 
+  it("leaves a normal loc unchanged, and decodes an ampersand once", () => {
+    const loc = (url: string) => `<urlset><url><loc>${url}</loc></url></urlset>`;
+
+    // No entity. The loc text is the URL.
+    expect(locsFrom(loc("https://rockenhaus.net/faq/"))).toEqual(["https://rockenhaus.net/faq/"]);
+
+    // The live baseline has one filing whose name contains `&`. The sitemap
+    // writes that as `&amp;`. One decode restores the URL. The amp-first
+    // chain produced this same string for this input.
+    const filing =
+      "https://rockenhaus.net/wayne_do_26-104594-DO/opposing/Proof%20of%20Service%205%20-%20Response%20to%20RFA,%20Motion%20to%20Set%20Aside%20&amp;%20Answer%20to%20CC.pdf";
+    expect(locsFrom(loc(filing))).toEqual([
+      "https://rockenhaus.net/wayne_do_26-104594-DO/opposing/Proof%20of%20Service%205%20-%20Response%20to%20RFA,%20Motion%20to%20Set%20Aside%20&%20Answer%20to%20CC.pdf",
+    ]);
+
+    // `&amp;lt;` is the characters `&lt;`, not `<`. An earlier `&amp;`
+    // decode would turn it into `<`.
+    expect(locsFrom(loc("https://rockenhaus.net/a&amp;lt;b/"))).toEqual(["https://rockenhaus.net/a&lt;b/"]);
+    expect(locsFrom(loc("https://rockenhaus.net/a&amp;quot;b/"))).toEqual(['https://rockenhaus.net/a&quot;b/']);
+    expect(locsFrom(loc("https://rockenhaus.net/a&lt;b/"))).toEqual(["https://rockenhaus.net/a<b/"]);
+  });
+
   it("cannot name the pages deleted in PR #7, because they are not in the sitemap", () => {
     // The old hardcoded list re-submitted these on every deploy for three weeks.
     // Deriving the list removes the possibility rather than the instance.
