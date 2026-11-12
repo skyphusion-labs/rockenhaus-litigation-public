@@ -28,7 +28,7 @@ ls wayne_do_26-104594-DO/filed/*.pdf | wc -l
 
 | Case | Public PDF roots | Notes |
 | --- | --- | --- |
-| Wayne DO `26-104594-DO` | `wayne_do_26-104594-DO/filed/`, `opposing/`, `orders/` | Primary active docket |
+| Wayne DO `26-104594-DO` | `wayne_do_26-104594-DO/filed/`, `opposing/`, `orders/` | Primary docket; dismissed by order dated 2026-10-13 (`orders/Order_Dismissal_Plaintiff_Failed_to_Appear_2026-10-13.pdf`) |
 | Washtenaw DO `26-737-DO` | `washtenaw_do_26-737-DO/filed/` | Reference / companion |
 | Wayne PPO `26-102221-PP` | (retired from public index) | Historical; not re-expanded here |
 
